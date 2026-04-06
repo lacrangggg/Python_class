@@ -8,13 +8,13 @@ danh_sach_hoc_sinh = []
 
 # Các môn học và hệ số
 MON_HOC = {
-    'Toan': 2,
-    'Ly': 1,
-    'Hoa': 1,
+    'Toán': 2,
+    'Lý': 1,
+    'Hóa': 1,
     'Anh': 1,
     'Sinh': 1,
-    'Van': 1,
-    'Su': 1
+    'Anh': 1,
+    'Sử': 1
 }
 
 def kiem_tra_ngay_sinh(ngay_sinh):
@@ -350,6 +350,7 @@ def local_storage():
                 "Điểm trung bình kì 1" : diem_tb_hk1,
                 "Điểm trung bình kì 2" : diem_tb_hk2,
                 "Điểm trung bình cả năm" : diem_tb_ca_nam,
+                "Xếp loại" : xep_loai,
             })
             json.dump(datas, file, ensure_ascii=False, indent="\n")
 
@@ -378,12 +379,12 @@ def main():
         print("7. Thống kê số lượng học sinh theo xếp loại")
         print("8. Sắp xếp học sinh theo điểm")
         print("9. Tìm học sinh cao điểm nhất")
-        print("E. Xuất danh sách học sinh ra file .json")
-        print("10. Thoát chương trình")
+        print("10. Xuất danh sách học sinh ra file .json")
+        print("11. Thoát chương trình")
         print("="*50)
         
         try:
-            lua_chon = int(input("Chọn chức năng (1-10): "))
+            lua_chon = int(input("Chọn chức năng (1-11): "))
             
             if lua_chon == 1:
                 them_hoc_sinh()
@@ -403,16 +404,16 @@ def main():
                 sap_xep_theo_diem()
             elif lua_chon == 9:
                 tim_hoc_sinh_cao_diem_nhat()
-            elif lua_chon == 10:
+            elif lua_chon == 11:
                 print("Cảm ơn đã sử dụng chương trình!")
                 break
-            elif lua_chon == "E": 
+            elif lua_chon == 10: 
                 local_storage()
                 print("Đã xuất file .json thành công!")
                 print("Cảm ơn đã sử dụng chương trình!")
                 break
             else:
-                print("Vui lòng chọn từ 1 đến 10!")
+                print("Vui lòng chọn từ 1 đến 11!")
         
         except ValueError:
             print("Vui lòng nhập số!")

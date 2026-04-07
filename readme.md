@@ -1,4 +1,4 @@
-# Chương Trình Quản Lý Học Sinh
+# Chương Trình Quản Lý Học Sinh Nhóm 5
 
 ## Mô Tả Chung
 
@@ -241,12 +241,12 @@ Chương trình có các kiểm tra dữ liệu nhập vào:
 ## Contributors
 
 - Đinh Đức Bình (Nhóm trưởng)
-- Vũ Phạm Trường Anh
-- Lê Tiến Dũng
-- Nguyễn Văn Dũng
-- Trần Tiến Đạt
-- Bùi Xuân Hùng
-- Nguyễn Văn Hiếu
-- Nguyễn Tuấn Duy
-- Lê Ngọc Ánh
-- Nguyễn Hoàng Hải
+- Vũ Phạm Trường Anh (Vẽ Flowchart)
+- Lê Tiến Dũng (Vẽ Flowchart, nhóm phó)
+- Nguyễn Văn Dũng (Vẽ Flowchart)
+- Trần Tiến Đạt (Tester)
+- Bùi Xuân Hùng (Tester)
+- Nguyễn Văn Hiếu (Coder)
+- Nguyễn Tuấn Duy (Coder)
+- Lê Ngọc Ánh (Tester)
+- Nguyễn Hoàng Hải (Viết readme.md)

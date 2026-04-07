@@ -242,9 +242,9 @@ Chương trình có các kiểm tra dữ liệu nhập vào:
 
 - Đinh Đức Bình (Nhóm trưởng)
 - Vũ Phạm Trường Anh (Vẽ Flowchart)
-- Lê Tiến Dũng (Vẽ Flowchart, nhóm phó)
+- Lê Tiến Dũng (Coder, nhóm phó)
 - Nguyễn Văn Dũng (Vẽ Flowchart)
-- Trần Tiến Đạt (Tester)
+- Trần Tiến Đạt (Coder)
 - Bùi Xuân Hùng (Tester)
 - Nguyễn Văn Hiếu (Coder)
 - Nguyễn Tuấn Duy (Coder)
